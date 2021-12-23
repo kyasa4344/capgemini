@@ -20,6 +20,7 @@ public class compareArraylist {
 		new_one.add("I am an employee of");
 		new_one.add("Capgemini");
 		new_one.add("Working as an Analyst");
+		new_one.remove(0);
 		System.out.println(new_one);
 		//compare the two arraylist
 		ArrayList<String> comp=new ArrayList<String>();

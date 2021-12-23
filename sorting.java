@@ -18,7 +18,8 @@ public class sorting {
 		animal.add("elephant");
 		System.out.println("animals before sorting are " +animal);
 		System.out.println(animal);
-		Collections.sort(animal,Collections.reverseOrder());
+		Collections.sort(animal);
+		
 		System.out.println("animal after sorting are " +animal);
 		
 		
