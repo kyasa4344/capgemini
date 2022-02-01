@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        h1{
+            
+            text-align: center;
+            color: chocolate;
+            
+        }
+    
+       
+        
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to Html Forms</h1>
+    <fieldset>
+        <legend>html form</legend>
+    <form  method="POST">
+        <label for="username">Enter the user name</label><br>
+
+    
+    <input type="text" id="username" 
+    
+    size="19" 
+    placeholder="Enter user name" 
+    maxlength="6" 
+    required minlength="3"
+    value="DarkNight123"
+    name="username"
+    >
+    <br><br>
+    <label for="password">Enter password</label><br>
+    <input type="password" id="pasword" placeholder="enter123" required name="password">
+    <br>
+    <br>
+    <input type="submit" id="sub">
+
+    <br>
+    <input type="number" max="10" min="0" placeholder="Input Num"><br>
+    <br>
+        <input type="tel" placeholder="Enter Phone"><br><br>
+        <input type="email" placeholder="Enter Email"><br><br>
+        <input type="file"><br>
+        male<input type="radio" name="gender"> 
+        female<input type="radio" name="gender"><br>
+        Ohio<input type="checkbox" name="Ohio">
+        Texas<input type="checkbox" name="Texas">
+        New York<input type="checkbox" name="New York">
+        Florida<input type="checkbox" name="Florida"><br><br>
+
+        <!-- <select name="Food">
+            <option>SELECT</option>
+            <option value="Chicken Biryani">Chicken Biryani</option>
+            <option value="Mutton Biryani">Mutton Biryani</option>
+            <option value="Veg.Biryani">Veg.Biryani</option>
+        </select> -->
+        <select name="food" multiple>
+            <option>SELECT</option>
+            <optgroup label="NonVeg">
+                <option value="Chicken Biryani">Chicken Biryani</option>
+                <option value="Mutton Biryani">Mutton Biryani</option>
+            </optgroup>
+            <optgroup label="Veg">
+                <option value="Veg.Biryani">Veg.Biryani</option>
+                <option value="Paneer Biryani">Paneer Biryani</option>
+            </optgroup>
+        </select><br><br>
+        <input type="date" name="" id="">
+        <input type="url" placeholder="enter url" name="" id="">
+
+
+        <input type="submit">
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+        <input type="file">
+    
+    </form>
+</fieldset>
+    
+</body>
+</html>
